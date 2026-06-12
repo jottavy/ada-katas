@@ -65,7 +65,6 @@ const choisirEmoji = (conditions, temperature) => {
 }
 
 
-
 // ── TODO : decrireMeteo ──────────────────────
 // Reçoit les conditions météo (string) et la température (number).
 // Retourne une description courte selon les deux :
@@ -79,8 +78,6 @@ const choisirEmoji = (conditions, temperature) => {
 //   "neige"                    → ajouter " et enneigé"
 //   "brouillard"               → ajouter " et brumeux"
 // Exemple : decrireMeteo("pluvieux", 8) → "Temps froid et pluvieux"
-
-
 
 const decrireMeteo = (conditions, temperature) => {
   let resultat = ""
