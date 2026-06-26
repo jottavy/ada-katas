@@ -11,6 +11,7 @@ formulaire.addEventListener('submit', function(invoquer) {
     document.getElementById('message').textContent = message;
 
     document.querySelector('.formulaire').classList.add('cache');
+    
     document.getElementById('invocation').classList.add('cache');
     document.getElementById('resultat').classList.remove('cache');
 
