@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Machine à invocation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Grotesk:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="form">
+      <h1>La Machine à invocation</h1>
+
+      <form id="invocation">
+        <label for="prenom">Entrez votre prénom :</label>
+        <input type="text" id="prenom" required placeholder="Ex : Charles" />
+
+        <label for="creature">Choisissez une créature :</label>
+        <select id="creature">
+          <option value="🐙 le Chat-Octo">🐙 le Chat-Octo</option>
+          <option value="🐉 le Dragon-Debug">🐉 le Dragon-Debug</option>
+          <option value="🦄 la Licorne-CSS">🦄 la Licorne-CSS</option>
+          <option value="🦊 le Renard-Refacto">🦊 le Renard-Refacto</option>
+        </select>
+
+        <button type="submit">Invoquer</button>
+      </form>
+    </section>
+
+    <section id="resultat" class="cache">
+      <h2>Résultat de l'invocation :</h2>
+      <p id="message"></p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
