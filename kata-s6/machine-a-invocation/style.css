@@ -4,12 +4,26 @@ body {
   background-color: #fafafa;
   color: #1a1a1a;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh; 
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.form, #resultat {
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header p {
+  color: #666666;
+  margin-top: 8px;
+  font-size: 1rem;
+}
+
+.formulaire, #resultat {
   background-color: #ffffff;
   padding: 40px;
   border-radius: 12px;
@@ -28,13 +42,17 @@ body {
 h1, h2 {
   font-family: 'Space Grotesk', sans-serif;
   text-align: center;
-  margin-bottom: 24px;
-  font-size: 1.6rem;
+  margin: 0;
   letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 1.8rem;
 }
 
 h2 {
   font-size: 1.3rem;
+  margin-bottom: 20px;
 }
 
 label {
@@ -81,6 +99,7 @@ button[type="submit"]:hover {
   text-align: center;
   line-height: 1.6;
   font-size: 1rem;
+  margin: 0;
 }
 
 .cache {

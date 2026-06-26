@@ -1,7 +1,17 @@
-const form = document.getElementById('invocation');
+const formulaire = document.getElementById('invocation');
 
-form.addEventListener('submit', function(invoquer) {
+formulaire.addEventListener('submit', function(invoquer) {
+
     event.preventDefault();
+
+    const prenom = document.getElementById('prenom').value
+    const creature = document.getElementById('creature').value
+    const message = `${prenom}, ${creature} a entendu ton appel et te suivra tout le Bloc 1 !`
     
-console.log('clic !');
+    document.getElementById('message').textContent = message;
+
+    document.querySelector('.formulaire').classList.add('cache');
+    document.getElementById('invocation').classList.add('cache');
+    document.getElementById('resultat').classList.remove('cache');
+
 });
