@@ -4,13 +4,16 @@
 }
 
 .entete h1 {
+  font-weight: 500;
   margin: 0 0 8px;
 }
 
 .entete p {
+  margin-top: 10px;
   font-size: 20px;
 }
 
-.entete-compteur {
+.entete .entete-compteur {
+  margin-top: 12px;
   font-size: 14px;
 }
