@@ -1,0 +1,21 @@
+.carte {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 20px 24px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.carte:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-border);
+}
+
+.carte h2 {
+  margin: 0;
+}

@@ -1,0 +1,16 @@
+.entete {
+  padding: 48px 24px 40px;
+  border-bottom: 1px solid var(--border);
+}
+
+.entete h1 {
+  margin: 0 0 8px;
+}
+
+.entete p {
+  font-size: 20px;
+}
+
+.entete-compteur {
+  font-size: 14px;
+}
